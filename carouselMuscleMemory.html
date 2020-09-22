@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap tutorial</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" Content="IE=edge">
+        <meta name = "viewport"
+        content = "width=device-width, initial-scale = 1">
+        <title>Bootstrap tutorial</title>
+        
+
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+        
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel="stylesheet" type="text/css">
+
+
+        <style>
+          /* .jumbotron{
+            background-color: #2E2D88;
+            color: white;
+          } */
+          /* Add borders for tabs */
+          .tab-content{
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+          }
+          .nav-tabs{
+            margin-bottom: 0;
+          }
+        </style>
+        
+  </head>
+  <body>
+    <div class="container">
+        
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <h4><a href="#col1Content" data-toggle="collapse">Column 1</a></h4>
+                <p id="col1Content" class="collapse">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                 been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                  a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                  five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                   It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                   passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <h4><a href="#col2Content" data-toggle="collapse">Column 2</a></h4>
+                <p id="col2Content" class="collapse">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                 been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                  a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                  five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                   It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                   passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <h4><a href="#col3Content" data-toggle="collapse">Column 3</a></h4>
+                <p id="col3Content" class="collapse">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                 been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                  a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                  five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                   It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                   passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum</p>
+            </div>
+        </div>
+
+
+
+        <div id = "yatchslider" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#yatchslider" data-slide-to="0" class="active"></li>
+                <li data-target="#yatchslider" data-slide-to="1"></li>
+                <li data-target="#yatchslider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="2000">
+                    <img src="images/yatch1.jpg" height="500px" class="d-block w-100" alt=""> 
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Enjoy the Ocean on Luxurious Boats and Yatchs</h4>
+                        <p>Its not only resevered for the rich</p>
+                    </div> 
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="images/yatch2.jpg" height="500px" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Yatchs Are Billionaires Favourite Toys</h4>
+                        <p>Anyone can live on land, but only a few live on the Ocean</p>
+                    </div> 
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="images/yatch3.jpg" height="500px" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Don't Just Accumulate wealth</h4>
+                        <p>Enjoy it</p>
+                    </div> 
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#yatchslider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#yatchslider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          
+        </div>
+
+
+
+
+        
+
+
+    </div>
+
+
+
+
+
+    <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
